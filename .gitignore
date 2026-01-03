@@ -1,15 +1,17 @@
-# LLVM IR / bitcode
+# Ejecutables que genero en AoC (sin extensión)
+**/main
+
+# Default si no pongo -o
+**/a.out
+
+# LLVM IR
 **/*.ll
 **/*.bc
-
-# Binarios comunes
-**/a.out
-**/*.exe
-
-# (Recomendado) carpetas de build
-**/build/
-**/bin/
 
 # Objetos
 **/*.o
 **/*.obj
+
+# (opcional) carpetas de build
+**/build/
+**/bin/
