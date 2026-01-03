@@ -1,0 +1,15 @@
+# LLVM IR / bitcode
+**/*.ll
+**/*.bc
+
+# Binarios comunes
+**/a.out
+**/*.exe
+
+# (Recomendado) carpetas de build
+**/build/
+**/bin/
+
+# Objetos
+**/*.o
+**/*.obj
